@@ -9,6 +9,11 @@ Library    QWeb
 *** Test Cases ***
 
 test
-    [Documentation]    Test Case created using the QEditor
-
-    OpenBrowser    about:blank    chrome
+    [Documentation]   Test Case created using the QEditor
+    OpenBrowser       about:blank       chrome
+    GoTo              https://www.copado.com/
+    ClickText         GET A DEMO
+    ClickText         Get Started
+    ClickText         COMMUNITY LOGIN
+    VerifyText        Welcome to the Copado Community
+    TypeText          Search...         test
