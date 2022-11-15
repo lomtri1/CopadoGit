@@ -16,4 +16,5 @@ test
     ClickText         Get Started
     ClickText         COMMUNITY LOGIN
     VerifyText        Welcome to the Copado Community
+    log          Welcome to the Copado Community
     TypeText          Search...         test
